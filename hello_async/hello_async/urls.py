@@ -20,6 +20,6 @@ from django.urls import path
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('async/', async_view),
-    path('sync', sync_view),
+    path('sync/', sync_view),
     path('', index),
 ]
